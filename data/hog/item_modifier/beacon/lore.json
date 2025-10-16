@@ -1,0 +1,26 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    "",
+    [
+      {
+        "translate": "subtitles.block.beacon.power_select",
+        "color": "gray",
+        "italic": false
+      },
+      ": "
+    ],
+    [
+      " ",
+      {
+        "nbt": "head.beacon.powers[].sprite",
+        "storage": "hog:data",
+        "interpret": true,
+        "color": "white",
+        "separator": ""
+      }
+    ]
+  ],
+  "mode": "replace_all"
+}

@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:beacon"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "!minecraft:food": {},
+      "minecraft:custom_data": {
+        "hog:head": {
+          "id": 3
+        }
+      },
+      "minecraft:equippable": {
+        "slot": "head",
+        "equip_sound": "minecraft:block.beacon.activate",
+        "allowed_entities": "minecraft:player"
+      },
+      "minecraft:item_model": "minecraft:player_head",
+      "minecraft:item_name": [
+        {
+          "translate": "block.minecraft.player_head.named",
+          "with": [
+            {
+              "translate": "block.minecraft.beacon"
+            }
+          ]
+        },
+        " ",
+        {
+          "translate": "filled_map.level",
+          "with": [
+            "0",
+            "5"
+          ]
+        }
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "rare",
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZjUyMGM4NTZiYzdhMDM2NGUwZWRlNzI5ZmI0OWQ2ZGMwNDZjZjdkOGY1NjQ5NGQwYzJmMjg2YjYyMzUzMSJ9fX0="
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

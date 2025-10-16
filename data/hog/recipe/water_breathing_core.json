@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:heavy_core"
+  ],
+  "addition": "minecraft:pufferfish",
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "!minecraft:food": {},
+      "minecraft:custom_data": {
+        "hog:consumable": {
+          "head": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "data": {
+            "beacon": {
+              "power": {
+                "id": "water_breathing",
+                "sprite": {"atlas":"minecraft:gui","sprite":"minecraft:mob_effect/water_breathing"},
+                "max": 1
+              }
+            }
+          }
+        }
+      },
+      "minecraft:item_model": "minecraft:player_head",
+      "minecraft:item_name": [
+        {
+          "translate": "effect.minecraft.water_breathing"
+        },
+        " ",
+        {
+          "translate": "block.minecraft.heavy_core"
+        }
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OTliZmFhM2EyYzYzYWQ4NWRkMzc4ZTY2ZDU3ZDlhOTdhM2Y4NmQwZDlmNjgzYzQ5ODYzMmY0ZjVjIn19fQ=="
+          }
+        ]
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:heavy_core",
+        "count": 1
+      }
+    },
+    "count": 1
+  }
+}

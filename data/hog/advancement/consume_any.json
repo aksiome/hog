@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "_": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "hog:consumable": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hog:events/consume_any"
+  }
+}

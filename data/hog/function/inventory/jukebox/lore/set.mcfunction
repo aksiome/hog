@@ -1,0 +1,1 @@
+$item modify entity @s armor.head {"function":"set_lore","entity":"this","lore":["",{"translate":"record.nowPlaying","color":"gray","italic":false,"with":[{"translate":"jukebox_song.minecraft.$(name)"}]}],"mode":"replace_all"}

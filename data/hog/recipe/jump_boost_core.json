@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:heavy_core"
+  ],
+  "addition": "minecraft:rabbit_foot",
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "!minecraft:food": {},
+      "minecraft:custom_data": {
+        "hog:consumable": {
+          "head": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "data": {
+            "beacon": {
+              "power": {
+                "id": "jump_boost",
+                "sprite": {"atlas":"minecraft:gui","sprite":"minecraft:mob_effect/jump_boost"},
+                "max": 2
+              }
+            }
+          }
+        }
+      },
+      "minecraft:item_model": "minecraft:player_head",
+      "minecraft:item_name": [
+        {
+          "translate": "effect.minecraft.jump_boost"
+        },
+        " ",
+        {
+          "translate": "block.minecraft.heavy_core"
+        }
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEyZjljNzYxZmMxMzFkYmViZDA3M2IwYjFkZDdkMWJhZWExOTFjZTlkMzNjNDljM2FjYTk0NDhiMWI2YjY4NCJ9fX0="
+          }
+        ]
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:heavy_core",
+        "count": 1
+      }
+    },
+    "count": 1
+  }
+}

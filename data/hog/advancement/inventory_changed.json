@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "_": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "hog:events/inventory_changed"
+  }
+}
