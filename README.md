@@ -12,8 +12,7 @@ Fear not, your discs aren’t lost!
 - Eat another disc to replace the one currently playing.
 - Remove it by clicking while wearing the head.
 
-(image_placeholder)
-
+![Jukebox Head](images/jukebox_head.png)
 
 ## 💎 Beacon Head
 
@@ -24,7 +23,7 @@ It’s fully upgradable using special crafted materials.
 
 Newly crafted heads start at Level 0.
 
-(image_placeholder)
+![Beacon Head](images/beacon_head.png)
 
 ### Upgrading
 
@@ -34,25 +33,26 @@ Each new level unlocks an additional effect slot, allowing you to store more act
 
 #### Heavy Block of Iron (Level 1)
 
-(image_placeholder)
+![Heavy Block of Iron](images/heavy_iron_block.png)
 
 #### Heavy Block of Gold (Level 2)
 
-(image_placeholder)
+![Heavy Block of Gold](images/heavy_gold_block.png)
 
 #### Heavy Block of Emerald (Level 3)
 
-(image_placeholder)
+![Heavy Block of Emerald](images/heavy_emerald_block.png)
 
 #### Heavy Block of Diamond (Level 4)
 
-(image_placeholder)
+![Heavy Block of Diamond](images/heavy_diamond_block.png)
 
 #### Heavy Block of Netherite (Level 5)
 
 At this level, your head also becomes invulnerable to lava.
 
-(image_placeholder)
+![Heavy Block of Netherite](images/heavy_netherite_block.png)
+
 
 ### Activating Effects
 
@@ -63,22 +63,38 @@ Use a Smithing Table to combine a Heavy Core with a specific material to infuse 
 - Some effects can stack up to level II.
 - The Heavy Core is returned after eating an Infused Core (but not when upgrading the head).
 
-(image_placeholder)
+#### Fire Resistance Core
 
-(image_placeholder)
+![Fire Resistance Core](images/fire_resistance_core.png)
 
-(image_placeholder)
+#### Haste Core
 
-(image_placeholder)
+![Haste Core](images/haste_core.png)
 
-(image_placeholder)
+#### Jump Boost Core
 
-(image_placeholder)
+![Jump Boost Core](images/jump_boost_core.png)
 
-(image_placeholder)
+#### Night Vision Core
 
-(image_placeholder)
+![Night Vision Core](images/night_vision_core.png)
 
-(image_placeholder)
+#### Regeneration Core
 
+![Regeneration Core](images/regeneration_core.png)
 
+#### Resistance Core
+
+![Resistance Core](images/resistance_core.png)
+
+#### Speed Core
+
+![Speed Core](images/speed_core.png)
+
+#### Strength Core
+
+![Strength Core](images/strength_core.png)
+
+#### Water Breathing Core
+
+![Water Breathing Core](images/water_breathing_core.png)
